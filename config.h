@@ -14,21 +14,21 @@ static const Block blocks[] = {
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"sb-torrent",	20,	7}, */
-	{"",	"~/.local/bin/statusbar/sb-memory",	10,	14},
-	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	18},
-	{"",	"~/.local/bin/statusbar/sb-moonphase",	18000,	17},
-	{"",	"~/.local/bin/statusbar/sb-forecast",	18000,	5},
+	/* {"",	"~/.local/bin/statusbar/sb-memory",	10,	14}, */
+	/* {"",	"~/.local/bin/statusbar/sb-cpu",		10,	18}, */
+	/* {"",	"~/.local/bin/statusbar/sb-moonphase",	18000,	17}, */
+	/* {"",	"~/.local/bin/statusbar/sb-forecast",	18000,	5}, */
 	/* {"",	"~/.local/bin/statusbar/sb-mailbox",	180,	12}, */
 	{"",	"~/.local/bin/statusbar/sb-nettraf",	1,	16},
-	{"",	"~/.local/bin/statusbar/sb-volume",	0,	10},
+	//{"",	"~/.local/bin/statusbar/sb-volume",	0,	10},
 	{"",	"~/.local/bin/statusbar/sb-battery",	5,	3},
 	{"",	"~/.local/bin/statusbar/sb-clock",	60,	1},
 	{"",	"~/.local/bin/statusbar/sb-internet",	5,	4},
-	/* {"",	"~/.local/bin/statusbar/sb-help-icon",	0,	15}, */
+	//{"",	"~/.local/bin/statusbar/sb-help-icon",	0,	15},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static char *delim = " | ";
+static char *delim = "  ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
